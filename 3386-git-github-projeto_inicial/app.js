@@ -16,7 +16,7 @@ function exibirMensagemInicial() {
 
 exibirMensagemInicial();
 
-function verificarChute() {
+function verificar_Chute() {
     let chute = document.querySelector('input').value;
     
     if (chute == numeroSecreto) {
@@ -57,7 +57,7 @@ function limparCampo() {
     chute.value = '';
 }
 
-function reiniciarJogo() {
+function reiniciar_Jogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
